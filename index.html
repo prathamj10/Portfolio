@@ -1,6 +1,7 @@
 <!-- Pratham -->
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -9,6 +10,7 @@
     <link rel="stylesheet" href="style.css">
     <script src="https://kit.fontawesome.com/c288d1a9df.js" crossorigin="anonymous"></script>
 </head>
+
 <body>
     <div id="header">
         <div id="container">
@@ -17,15 +19,15 @@
                 <ul id="sidemenu">
                     <li><a href="#header">Home</a></li>
                     <li><a href="#about">About</a></li>
-                    <li><a href="#services">Services</a></li>
-                    <li><a href="#portfolio">Portfolio</a></li>
+                    <li><a href="#services">Skills</a></li>
+                    <li><a href="#portfolio">Projects</a></li>
                     <li><a href="#contact">Contact</a></li>
                     <i class="fa-solid fa-xmark" onclick="closemenu()"></i>
                 </ul>
                 <i class="fa-solid fa-bars" onclick="openmenu()"></i>
             </nav>
             <div class="header-text">
-                <p>Web Designer</p>
+                <p>ReactJS Developer</p>
                 <h1>Hi, I'm <span>Pratham Jain</span></h1>
             </div>
         </div>
@@ -38,142 +40,129 @@
                     <img src="images/user.jpg" alt="">
                 </div>
                 <div class="about-col-2">
-                    <h1 class="sub-title">About Me</h1>
-                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Animi perspiciatis hic laborum dolores similique, adipisci vel numquam. Consequuntur aliquam impedit blanditiis mollitia animi voluptate maiores perferendis perspiciatis cum! Soluta, accusamus?
-                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Aspernatur ex, sed eos sapiente architecto unde neque saepe ut debitis! Accusamus velit optio tenetur distinctio quibusdam sapiente porro qui dolores eius.
+                    <h1 class="sub-title">About Me</h1><br>
+                    <p>My name is Pratham Jain. I am pursuing B.Tech(CSE) from Ajay Kumar Garg Engineering College. I am ReactJs Developer. I like to do competitive programming. My hobbies include badminton, painting.
                     </p>
+                    <br>
                     <div class="tab-titles">
-                        <p class="tab-links active-link" onclick="opentab('skills')">Skills</p>
+                        <p class="tab-links active-link" onclick="opentab('education')">Education</p>
                         <p class="tab-links" onclick="opentab('experience')">Experience</p>
-                        <p class="tab-links" onclick="opentab('education')">Education</p>
+                        
                     </div>
-                    <div class="tab-contents active-tab" id="skills">
+                    <div class="tab-contents active-tab" id="education">
                         <ul>
-                            <li><span>UI/UX</span><br>Designing Web/App interfaces</li>
-                            <li><span>Web Development</span><br>Web App Development</li>
-                            <li><span>App Development</span><br>Building Android/IOS Apps</li>
+                            <li><span>2020-Current</span><br>B.Tech(CSE) from AKEGEC, Ghaziabad</li>
+                            <li><span>2019-2020</span><br>Intermediate from Maples Academy, Deoband</li>
+                            <li><span>2017-2018</span><br>Highschool from Maples Academy, Deoband</li>
                         </ul>
                     </div>
                     <div class="tab-contents" id="experience">
                         <ul>
-                            <li><span>2021-Current</span><br>UI/UX Design Training at ET Institute</li>
-                            <li><span>2019-2021</span><br>Team Lead at StarApp LLC.</li>
-                            <li><span>2017-2019</span><br>UI/UX Design Executive at Coin Digital Ltd.</li>
-                            <li><span>2016-2017</span><br>Internship at ekart eCommerce.</li>
+                            <li><span>05/2022-06/2022</span><br>Campus Ambassador Internship Program<br>Promoting the content via Social Media Channels to spread the word about Internships.</li>
                         </ul>
                     </div>
-                    <div class="tab-contents" id="education">
-                        <ul>
-                            <li><span>2016</span><br>UI/UX Design Training at ET Institute</li>
-                            <li><span>2016</span><br>MBA from MIT Banglore.</li>
-                            <li><span>2014</span><br>BBA from ISM Banglore.</li>
-                        </ul>
+                    
+                </div>
+            </div>
+        </div>
+    </div>
+    <!------------------skills------------------------------>
+    <div id="services">
+        <div class="container">
+            <h1 class="sub-title">My Skills</h1>
+            <div class="services-list">
+                <div><h2>C</h2></div>
+                <div><h2>C++</h2></div>
+                <div><h2>Python</h2></div>
+                <div><h2>Java</h2></div>   
+                <div><h2>HTML5</h2></div>
+                <div><h2>CSS3</h2></div>
+                <div><h2>Javascript</h2></div>
+                <div><h2>ReactJS</h2></div>
+                <div><h2>Git</h2></div>
+                <div><h2>Netlify</h2></div>   
+            </div>
+        </div>
+    </div>
+    <!----------------------------portfolio----------------------------->
+    <div id="portfolio">
+        <div class="container">
+            <h1 class="sub-title">My Projects</h1>
+            <div class="work-list">
+                <div class="work">
+                    <img src="images/Connect4.png">
+                    <div class="layer">
+                        <h3>Coonect4</h3>
+                        <p>A two-player connection board game. The Objective is to be the first to form a horizontal,
+                            vertical, or diagonal line of four of one's own discs.</p>
+                        <a href="https://github.com/prathamj10?tab=repositories"><i class="fa-solid fa-up-right-from-square"></i></a>
+                    </div>
+                </div>
+                <div class="work">
+                    <img src="images/Resume.png">
+                    <div class="layer">
+                        <h3>Resume DSR</h3>
+                        <p>A website that provide a quick and easy way to create professional resumes. It provides
+                            various resume templates to user.</p>
+                        <a href="https://github.com/prathamj10?tab=repositories"><i class="fa-solid fa-up-right-from-square"></i></a>
+                    </div>
+                </div>
+                <div class="work">
+                    <img src="images/Weather.png">
+                    <div class="layer">
+                        <h3>Weather App</h3>
+                        <p>A React Web Application using a weather API to fetch data. It provide live weather updates to
+                            the user from any city in the world.</p>
+                        <a href="https://github.com/prathamj10?tab=repositories"><i class="fa-solid fa-up-right-from-square"></i></a>
                     </div>
                 </div>
             </div>
+            <!--<a href="#" class="btn">See More</a>-->
         </div>
     </div>
-<!------------------services------------------------------>
-<div id="services">
-    <div class="container">
-        <h1 class="sub-title">My Services</h1>
-        <div class="services-list">
-            <div>
-                <i class="fa-solid fa-code"></i>
-                <h2>Web Design</h2>
-                <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Rem harum iure nulla voluptates et similique perspiciatis corrupti incidunt, quasi fuga molestiae dignissimos adipisci. Exercitationem id atque obcaecati quibusdam, illo dolore!</p>
-                <a href="#">Learn More</a>
-            </div>
-            <div>
-                <i class="fa-sharp fa-solid fa-crop"></i>
-                <h2>UI/UX Design</h2>
-                <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Rem harum iure nulla voluptates et similique perspiciatis corrupti incidunt, quasi fuga molestiae dignissimos adipisci. Exercitationem id atque obcaecati quibusdam, illo dolore!</p>
-                <a href="#">Learn More</a>
-            </div>
-            <div>
-                <i class="fa-brands fa-app-store"></i>
-                <h2>App Design</h2>
-                <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Rem harum iure nulla voluptates et similique perspiciatis corrupti incidunt, quasi fuga molestiae dignissimos adipisci. Exercitationem id atque obcaecati quibusdam, illo dolore!</p>
-                <a href="#">Learn More</a>
-            </div>
-        </div>
-    </div>
-</div>
-<!----------------------------portfolio----------------------------->
-<div id="portfolio">
-    <div class="container">
-        <h1 class="sub-title">My Work</h1>
-        <div class="work-list">
-            <div class="work">
-                <img src="images/work-1.png">
-                <div class="layer">
+    <!----------------------------Contact------------------------>
+    <div id="contact">
+        <div class="container">
+            <div class="row">
+                <div class="contact-left">
+                    <h1 class="sub-title">Contact Me</h1>
+                    <p><i class="fa-solid fa-envelope"></i>prathamjain233@gmail.com</p>
+                    <p><i class="fa-solid fa-square-phone"></i>7017791942</p>
+                    <div class="social-icons">
+                        <a href="https://www.facebook.com/pratham.jain.543908"><i class="fa-brands fa-facebook"></i></a>
 
-                    <h3>Social Media App</h3>
-                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Tenetur, fugit nulla. Nihil, unde mollitia debitis reiciendis expedita nobis commodi repellendus molestiae. Earum sapiente odio sint adipisci officiis assumenda veritatis libero!</p>
-                    <a href="#"><i class="fa-solid fa-up-right-from-square"></i></a>
+                        <a href="https://www.instagram.com/pratham_jain10/"><i
+                                class="fa-brands fa-square-instagram"></i></a>
+                        <a href="https://www.linkedin.com/in/pratham-jain-ba1b8623a/"><i
+                                class="fa-brands fa-linkedin"></i></a>
+                    </div>
+                    <a href="images/PJ Resume.pdf" download class="btn btn2">Download Resume</a>
                 </div>
-            </div>
-            <div class="work">
-                <img src="images/work-2.png">
-                <div class="layer">
-                    <h3>Music App</h3>
-                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Tenetur, fugit nulla. Nihil, unde mollitia debitis reiciendis expedita nobis commodi repellendus molestiae. Earum sapiente odio sint adipisci officiis assumenda veritatis libero!</p>
-                    <a href="#"><i class="fa-solid fa-up-right-from-square"></i></a>
-                </div>
-            </div>
-            <div class="work">
-                <img src="images/work-3.png">
-                <div class="layer">
-                    <h3>Online Shopping App</h3>
-                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Tenetur, fugit nulla. Nihil, unde mollitia debitis reiciendis expedita nobis commodi repellendus molestiae. Earum sapiente odio sint adipisci officiis assumenda veritatis libero!</p>
-                    <a href="#"><i class="fa-solid fa-up-right-from-square"></i></a>
+                <div class="contact-right">
+                    <form name="submit-to-google-sheet">
+                        <input type="text" name="Name" placeholder="Your Name" required>
+                        <input type="email" name="Email" placeholder="Your Email" required>
+                        <textarea name="Message" rows="6" placeholder="Your Message"></textarea>
+                        <button type="submit" class="btn btn2">Submit</button>
+
+                    </form>
+                    <span id="msg"></span>
                 </div>
             </div>
         </div>
-        <a href="#" class="btn">See More</a>
-    </div>
-</div>
-<!----------------------------Contact------------------------>
-<div id="contact">
-    <div class="container">
-        <div class="row">
-            <div class="contact-left">
-                <h1 class="sub-title">Contact Me</h1>
-                <p><i class="fa-solid fa-envelope"></i>prathamjain233@gmail.com</p>
-                <p><i class="fa-solid fa-square-phone"></i>7017791942</p>
-                <div class="social-icons">
-                    <a href="https://www.facebook.com/pratham.jain.543908"><i class="fa-brands fa-facebook"></i></a>
-
-                    <a href="https://www.instagram.com/pratham_jain10/"><i class="fa-brands fa-square-instagram"></i></a>
-                    <a href="https://www.linkedin.com/in/pratham-jain-ba1b8623a/"><i class="fa-brands fa-linkedin"></i></a>
-                </div>
-                <a href="images/my-cv.pdf" download  class="btn btn2" >Download CV</a>
-            </div>
-            <div class="contact-right">
-                <form name="submit-to-google-sheet">
-                    <input type="text" name="Name" placeholder="Your Name" required>
-                    <input type="email" name="Email" placeholder="Your Email" required>
-                    <textarea name="Message" rows="6" placeholder="Your Message"></textarea>
-                    <button type="submit" class="btn btn2">Submit</button>
-
-                </form>
-                <span id="msg"></span>
-            </div>
+        <div class="copyright">
+            <p>Copyright @Pratham. <!--Made with <i class="fa-solid fa-heart"></i> by Easy Tutorials.--></p>
         </div>
-    </div>
-    <div class="copyright">
-        <p>Copyright @Pratham. Made with <i class="fa-solid fa-heart"></i> by Easy Tutorials.</p>
-    </div>
 
-</div>
+    </div>
     <script>
-        var tablinks=document.getElementsByClassName("tab-links");
-        var tabcontents=document.getElementsByClassName("tab-contents");
-        function opentab(tabname){
-            for(tablink of tablinks){
+        var tablinks = document.getElementsByClassName("tab-links");
+        var tabcontents = document.getElementsByClassName("tab-contents");
+        function opentab(tabname) {
+            for (tablink of tablinks) {
                 tablink.classList.remove("active-link");
             }
-            for(tabcontent of tabcontents){
+            for (tabcontent of tabcontents) {
                 tabcontent.classList.remove("active-tab");
             }
             event.currentTarget.classList.add("active-link");
@@ -181,33 +170,34 @@
         }
     </script>
     <script>
-        var sidemenu=document.getElementById("sidemenu");
-        function openmenu(){
-            sidemenu.style.right="0";
+        var sidemenu = document.getElementById("sidemenu");
+        function openmenu() {
+            sidemenu.style.right = "0";
 
         }
-        function closemenu(){
-            sidemenu.style.right="-200px";
+        function closemenu() {
+            sidemenu.style.right = "-200px";
 
         }
     </script>
     <script>
         const scriptURL = 'https://script.google.com/macros/s/AKfycbwiIA8Ah8NmVVJQKZgXKhjAjzGBzS1HOp-1Z9KSRPNcyK2SF-k5zBLGm4IgaXSJpN-PgA/exec'
         const form = document.forms['submit-to-google-sheet']
-        const msg= document.getElementById("msg")
+        const msg = document.getElementById("msg")
         form.addEventListener('submit', e => {
-          e.preventDefault()
-          fetch(scriptURL, { method: 'POST', body: new FormData(form)})
-            .then(response => {
-                msg.innerHTML="Message sent successfully!"
-                setTimeout(function(){
-                    msg.inne0rHTML=""
-                },5000)
-                form.reset()
-        
+            e.preventDefault()
+            fetch(scriptURL, { method: 'POST', body: new FormData(form) })
+                .then(response => {
+                    msg.innerHTML = "Message sent successfully!"
+                    setTimeout(function () {
+                        msg.inne0rHTML = ""
+                    }, 5000)
+                    form.reset()
+
+                })
+                .catch(error => console.error('Error!', error.message))
         })
-            .catch(error => console.error('Error!', error.message))
-        })
-      </script>
+    </script>
 </body>
+
 </html>
